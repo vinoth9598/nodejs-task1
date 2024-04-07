@@ -30,7 +30,7 @@ const currentDateTime=date+'_'+month+'_'+year+'_'+hours+'_'+minutes+'_'+seconds
 
 
 app.get('/',(request ,response)=>{
-    response.send('node js task timestamp');
+    response.send('node js task timestamp endpoint '/file');
 })
 
 
