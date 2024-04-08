@@ -22,12 +22,12 @@ const seconds=Datetime.getSeconds();
 const currentDateTime=date+'_'+month+'_'+year+'_'+hours+'_'+minutes+'_'+seconds
 
 // API endpoint 
-('/') -http://127.0.0.1:3001;
-('/file')-textfile http://127.0.0.1:3001/file;
+// ('/') -http//127.0.0.1:3001;
+// ('/file')-textfile http://127.0.0.1:3001/file;
 
 
 app.get('/',(request ,response)=>{
-    response.send('node js task timestamp');
+    response.send('node js task timestamp endpoint /file ');
 })
 
 
