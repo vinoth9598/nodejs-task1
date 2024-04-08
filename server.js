@@ -4,9 +4,6 @@ const fs=require('fs');
 
 const app=express();
 
-
-
-
 const HOSTNAME='127.0.0.1';
 const PORT = 3001;
 
@@ -30,7 +27,7 @@ const currentDateTime=date+'_'+month+'_'+year+'_'+hours+'_'+minutes+'_'+seconds
 
 
 app.get('/',(request ,response)=>{
-    response.send('node js task timestamp endpoint /file');
+    response.send('node js task timestamp');
 })
 
 
